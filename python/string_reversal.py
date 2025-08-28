@@ -2,14 +2,14 @@
 question -1 : Write a Python program to reverse a string without using built-in functions.
 """
 # # NAIVE ONE
-# def reversal(str1):
-#     rstr1=""
-#     for i in range(len(str1),0,-1):
-#         rstr1+=str1[i-1]
-#     return rstr1
-# str1=input("Enter a string: ")
-# print("The original string is: ",str1)
-# print("The reversed string is: ",reversal(str1))
+def reversal(str1):
+    rstr1=""
+    for i in range(len(str1),0,-1):
+        rstr1+=str1[i-1]
+    return rstr1
+str1=input("Enter a string: ")
+print("The original string is: ",str1)
+print("The reversed string is: ",reversal(str1))
 
 
 
